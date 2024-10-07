@@ -2,7 +2,7 @@
 
 :root {
     --bg-blue: #255EE9;
-    --bg-grey: #e5e3e3;
+    --bg-grey: #F6F6F6;
     --bg-dark: #23272A;
     --bg-violet: #7289DA;
 }
@@ -48,6 +48,7 @@ body {
 header {
     background-color: var(--bg-blue);
     padding: 6px 10px;
+    align-items: baseline;
 }
 
 header ul li a {
@@ -58,7 +59,6 @@ header ul li a {
 
 ul {
     list-style: none;
-    padding: 80px;
 }
 
 /* main */
@@ -178,6 +178,21 @@ button {
     text-decoration: none;
 }
 
+.wave {
+    height: 100px;
+    width: 100%;
+    background-image: url('../img/wave.svg');
+    opacity: 0.03;
+}
+
+.rotate-wave {
+    height: 100px;
+    width: 100%;
+    background-image: url('../img/wave.svg');
+    opacity: 0.03;
+    transform: rotate(180deg);
+}
+
 /* footer */
 
 footer {
@@ -195,14 +210,25 @@ footer img {
     height: 18px; 
 }
 
-.footer-top {}
+footer a {
+    text-decoration: none;
+    color: white; 
+}
+
+footer ul {
+    padding: 0px 75px;
+}
+
+.footer-top {
+  
+
+}
 
 #text-violet {
     color: var(--bg-violet);
 }
 
-}
-
 .footer-bottom {
     border-top: 0.8px solid var(--bg-grey);
+    padding-top: 15px;
 }
