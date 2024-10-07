@@ -57,6 +57,10 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
@@ -175,6 +179,19 @@ p {
     text-decoration: none;
 }
 
+.btn:hover {
+    color: var(--bg-blue);
+    box-shadow: 5px 5px 5px var(--bg-dark);
+}
+
+.btn-dark:hover {
+    box-shadow: 5px 5px 5px var(--bg-grey);
+}
+
+.btn-violet:hover {
+    box-shadow: 5px 5px 5px var(--bg-dark);
+}
+
 .wave {
     height: 100px;
     width: 100%;
@@ -196,6 +213,10 @@ footer {
     padding: 6px 10px;
     background-color: var(--bg-dark);
     color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
 
 h3 {
@@ -254,4 +275,5 @@ nav {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
+    flex-wrap: wrap;
 }
