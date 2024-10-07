@@ -58,6 +58,7 @@ header ul li a {
 
 ul {
     list-style: none;
+    padding: 80px;
 }
 
 /* main */
@@ -183,12 +184,15 @@ footer {
     padding: 6px 10px;
     background-color: var(--bg-dark);
     color: white;
-
 }
 
 h3 {
     color: var(--bg-violet);
     font-size: 2em;
+}
+
+footer img {
+    height: 18px; 
 }
 
 .footer-top {}
