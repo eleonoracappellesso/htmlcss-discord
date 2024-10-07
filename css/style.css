@@ -152,12 +152,17 @@ p {
     flex-direction: column;
 }
 
+main .btn , main .btn-dark, main .btn-violet {
+    font-size: larger;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 16px;
     border-radius: 16px;
     background-color: white;
     color: var(--bg-dark);
+    font-size: smaller;
     text-decoration: none;
 }
 
@@ -167,6 +172,7 @@ p {
     border-radius: 16px;
     background-color: var(--bg-dark);
     color: white;
+    font-size: smaller;
     text-decoration: none;
 }
 
@@ -176,6 +182,7 @@ p {
     border-radius: 16px;
     background-color: var(--bg-violet);
     color: white;
+    font-size: smaller;
     text-decoration: none;
 }
 
