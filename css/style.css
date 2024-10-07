@@ -19,11 +19,6 @@ body {
     font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-/* .debug {
-    border: 1px solid #4fef8c;
-}
-*/
-
 .bg-blue {
     background-color: var(--bg-blue);
 }
