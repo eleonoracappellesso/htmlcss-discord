@@ -186,6 +186,11 @@ footer {
 
 }
 
+h3 {
+    color: var(--bg-violet);
+    font-size: 2em;
+}
+
 .footer-top {}
 
 #text-violet {
