@@ -232,3 +232,9 @@ footer ul {
     border-top: 0.8px solid var(--bg-grey);
     padding-top: 15px;
 }
+
+select {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}
